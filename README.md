@@ -9,17 +9,17 @@ Repositorio creado para la alojar la prueba técnica para la empresa Tekton Labs
   RTA: Se registra Swagger en  para el proyecto
   
 #### 1.3. Usar patrones (ejemplo: mediator pattern, repository pattern, cqrs, etc).
-  RTA: En este prueba se utilizan finalmente los patrones Mediator, UnitOfWork y CQRS
-  UnitOfWork para asegurar un conjunto de operaciones se ejecuten correctamente
-  Mediator para registrar la comunicación entre los commands, queries y sus respectivos handlers. De este modo se pueden injectar todos los objetos queries y handlres
-  CQRS se implementa con los Querys y handlers
+  RTA: En este prueba se utilizan finalmente los patrones Mediator, UnitOfWork y CQRS.
+  UnitOfWork para asegurar un conjunto de operaciones se ejecuten correctamente.
+  Mediator para registrar la comunicación entre los commands, queries y sus respectivos handlers. De este modo se pueden injectar todos los objetos queries y handlres.
+  CQRS se implementa con los Querys y handlers.
   
 #### 1.4. Aplicar principios SOLID y Clean Code.
   -Se implementa un arquitectura limpia que es Domain-Driven-Desing (DDD). Se crean las capas de Dominio, Aplicación e infraestructura, todo estos siguiendo fielmente los principios de DDD.
-  -Se puede evidencias la utilización de principios SOLID en la inyección de dependencia. Cuando creamon el modelo *public sealed class Product* estoy utilizando uno de los principios solid que es el Single Responsability 
-  -Simple que me asegura que no va ser posible que otra clase herede de la clase de dominio product, 
+  -Se puede evidenciar la utilización de principios SOLID en la inyección de dependencia. Cuando creamos el modelo *public sealed class Product* estoy utilizando uno de los principios solid que es el Single Responsability 
+   Simple que me asegura que no va ser posible que otra clase herede de la clase de dominio product.
   -Siguiendo los principios de ddd notamos que las propiedades de la entidad product será accesible desde el exterior, pero solamente internamente se podrá setear o modificar(private set)
-  -Se utilizan Object values por ejemplo para el Price y Currency. En conclusión se crea una entidad enriquecida
+  -Se utilizan Object values por ejemplo para el Price y Currency. En conclusión se crea una entidad enriquecida.
   -entre otros
 
 #### 1.5. Implementar la solución haciendo uso de TDD.
@@ -28,22 +28,30 @@ Repositorio creado para la alojar la prueba técnica para la empresa Tekton Labs
 #### 1.6. Usar buenos patrones para las validaciones del Request, y además considerar los HTTP Status Codes en cada petición realizada.
   RTA: Para validar los request se usa Fluentvalidators(Solo se valida que el campo no venga vacío) para Name, Description, entre otros.
        Los response con sus respectivos códigos usamos la interfaz IActionResult
+       
 #### 1.7. Estructurar el proyecto en N-capas.
   RTA: Se implementa DDD y se crean los proyecto Domain, Application, Infrastructure y la Api Web
+  
 #### 1.8. Agregar un archivo readme (README.md)
   OK
+  
 #### 1.9. Subir el proyecto a github de manera pública.
   OK
-#### 2.1. Realizar Insert(POST), Update(PUT) y GetById(GET) de un maestro de
-productos.
+  
+#### 2.1. Realizar Insert(POST), Update(PUT) y GetById(GET) de un maestro de productos.
+  RTA: Se adjunta collección de POSTMAN PruebaTektonMarketPlus
+  
 #### 2.2. Loguear el tiempo de respuesta de cada request hecho en un archivo detexto plano.
   RTA: Logeo el tiempo de respuesta en un middleware personalizado llamado RequestTimeMiddleware.cs que me permitirá interceptar las solicitudes y sus respuestas. Este tiempo queda guardado en el archivo       
        request_time_log.txt en la carpeta del proyecto MarketPlus.Api
+       
 #### 2.3. Mantener en caché(5 min) un diccionario de estados del producto, cuyos valores son mostrados en el siguiente cuadro
   RTA: Para almacenar el diccionario en el cache utilizamos IMemoryCache dede la capa de infraestructura y lo inicializamos en Program.cs.
   NOTA: No olvidar que el caché solo dura 5 minutos
+  
 #### 2.4 Grabar la información del producto localmente
   RTA: Se graba en una bd local de SQlite llamada dbSqlite.db
+  
 #### 2.5 El método GetById debe retornar un producto con los siguientes campos:
   RTA: Se retorna según lo indicado. Sin embargo, por motivos de tiempo, para obtener el porcentaje de descuento genero un número aleatorio. Con un poco mas de tiempo, siguiendo los principios de DDD, el llamado al 
   servicio para obtener dicho valor se debería realizar desde la capa de infraestructura
@@ -59,4 +67,4 @@ productos.
 
 Como se mencionó anteriormente el proyecto tiene seeders y ya que hay una BD local, no deberían tener problema para probar los servicios desde POSTMAN
 
-###No dudar en escribirme en caso de problemas con la ejecución.
+### No dudar en escribirme en caso de problemas con la ejecución.
