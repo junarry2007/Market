@@ -1,0 +1,12 @@
+C:\Users\Usuario\source\repos\MarketPlus\MarketPlus.Domain\bin\Debug\net8.0\MarketPlus.Domain.deps.json
+C:\Users\Usuario\source\repos\MarketPlus\MarketPlus.Domain\bin\Debug\net8.0\MarketPlus.Domain.dll
+C:\Users\Usuario\source\repos\MarketPlus\MarketPlus.Domain\bin\Debug\net8.0\MarketPlus.Domain.pdb
+C:\Users\Usuario\source\repos\MarketPlus\MarketPlus.Domain\obj\Debug\net8.0\MarketPlus.Domain.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\MarketPlus\MarketPlus.Domain\obj\Debug\net8.0\MarketPlus.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\source\repos\MarketPlus\MarketPlus.Domain\obj\Debug\net8.0\MarketPlus.Domain.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\MarketPlus\MarketPlus.Domain\obj\Debug\net8.0\MarketPlus.Domain.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\MarketPlus\MarketPlus.Domain\obj\Debug\net8.0\MarketPlus.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\MarketPlus\MarketPlus.Domain\obj\Debug\net8.0\MarketPlus.Domain.dll
+C:\Users\Usuario\source\repos\MarketPlus\MarketPlus.Domain\obj\Debug\net8.0\refint\MarketPlus.Domain.dll
+C:\Users\Usuario\source\repos\MarketPlus\MarketPlus.Domain\obj\Debug\net8.0\MarketPlus.Domain.pdb
+C:\Users\Usuario\source\repos\MarketPlus\MarketPlus.Domain\obj\Debug\net8.0\ref\MarketPlus.Domain.dll

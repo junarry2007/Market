@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "0iL8km4NTHA90b16qUr4IGxnWtvzVqJbbM1qOXHCNjA=",
+  "Source": "MarketPlus.Api",
+  "BasePath": "_content/MarketPlus.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

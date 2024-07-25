@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "y4c7Sh1jHyYUpHHJ6wl3GuYRypzUkTbnditW9BBiG6Q4wdnt6sQ6VkByfNQ2Jg6SS/Ud0TSgq+bEn5VaYYwPZQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Usuario\\source\\repos\\MarketPlus\\MarketPlus.Domain\\MarketPlus.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Usuario\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

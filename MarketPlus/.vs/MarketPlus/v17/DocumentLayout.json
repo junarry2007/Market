@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\source\\repos\\MarketPlus\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{43C73AB1-6EF6-4960-8673-55FF63B025D2}|MarketPlus.Api\\MarketPlus.Api.csproj|c:\\users\\usuario\\source\\repos\\marketplus\\marketplus.api\\controllers\\product\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43C73AB1-6EF6-4960-8673-55FF63B025D2}|MarketPlus.Api\\MarketPlus.Api.csproj|solutionrelative:marketplus.api\\controllers\\product\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED333B77-6FDF-4ACB-82DF-B387580F20A5}|MarketPlus.Application\\MarketPlus.Application.csproj|c:\\users\\usuario\\source\\repos\\marketplus\\marketplus.application\\products\\searchproduct\\searchproductqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED333B77-6FDF-4ACB-82DF-B387580F20A5}|MarketPlus.Application\\MarketPlus.Application.csproj|solutionrelative:marketplus.application\\products\\searchproduct\\searchproductqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MarketPlus\\MarketPlus.Api\\Controllers\\Product\\ProductController.cs",
+              "RelativeDocumentMoniker": "MarketPlus.Api\\Controllers\\Product\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MarketPlus\\MarketPlus.Api\\Controllers\\Product\\ProductController.cs",
+              "RelativeToolTip": "MarketPlus.Api\\Controllers\\Product\\ProductController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwDAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T12:30:07.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SearchProductQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MarketPlus\\MarketPlus.Application\\Products\\SearchProduct\\SearchProductQueryHandler.cs",
+              "RelativeDocumentMoniker": "MarketPlus.Application\\Products\\SearchProduct\\SearchProductQueryHandler.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MarketPlus\\MarketPlus.Application\\Products\\SearchProduct\\SearchProductQueryHandler.cs",
+              "RelativeToolTip": "MarketPlus.Application\\Products\\SearchProduct\\SearchProductQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T04:29:21.218Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
